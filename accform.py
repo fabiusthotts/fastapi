@@ -19,7 +19,5 @@ async def render_page_post(request: Request, username: str = Form(...), details_
     print(details)
     return templates.TemplateResponse("index.html", {"request": request, "name": username})
 
-
-    
 if __name__ == "__main__":
     uvicorn.run("accform:app", reload=True, port=8000)
