@@ -32,7 +32,7 @@ uvicorn main:app
 ```
 #### Use of Enum
 * Enum is helps in forcing given values into one of the required fields. 
-* enum.py is an example for the same and also includes the use of type hints in FastAPI
+* enum1.py is an example for the same and also includes the use of type hints in FastAPI
 
 #### Requests using FastAPI
 * req.py is an example on how to create endpoints for different requests in FastAPI
