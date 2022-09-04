@@ -8,4 +8,4 @@ async def root():
     return {"message": "Hello World"}
 
 if __name__ == "__main__":
-    uvicorn.run("index:app", reload=True, port=8000)
+    uvicorn.run("intro:app", reload=True, port=8000)
